@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background-color: aqua;
+  height: 100px;
+  width: auto;
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    li {
+      background-color: black;
+      padding: 10px;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 10px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
