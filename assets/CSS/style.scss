@@ -4,10 +4,24 @@
   box-sizing: border-box;
 }
 
+.princ {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  img {
+    height: 550px;
+  }
+  h1, p {
+    justify-content: center;
+  }
+}
+
 .sidebar {
   background-color: rgb(27, 199, 199);
   height: 100px;
   width: auto;
+  position:fixed;
   ul {
     display: flex;
     flex-direction: column;
