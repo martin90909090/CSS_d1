@@ -10,9 +10,12 @@
   justify-content: flex-end;
   align-items: center;
   img {
-    height: 550px;
+    height: 625px;
+    padding-top: 10%;
+    padding-bottom: 0;
   }
   h1, p {
+    margin: 0;
     justify-content: center;
   }
 }
@@ -27,7 +30,7 @@
     flex-direction: column;
     list-style: square;
     li {
-      background-color: gray;
+      background-color: gainsboro;
       padding: 10px;
       flex-direction: row;
       justify-content: center;
@@ -37,9 +40,13 @@
         text-decoration: none;
       }
       span {
-        color: white;
+        color: aliceblue;
         text-decoration: none;
       }
     }
   }
+}
+
+.new_chat {
+  background-color: #A491D2;
 }
