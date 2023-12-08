@@ -24,7 +24,7 @@
   background-color: rgb(27, 199, 199);
   height: 100px;
   width: auto;
-  position: fixed;
+  position: absolute;
 }
 .sidebar ul {
   display: flex;
@@ -41,6 +41,11 @@
 .sidebar ul li a {
   color: black;
   text-decoration: none;
+}
+.sidebar ul li a img {
+  height: 50px;
+  border-radius: 150px;
+  border: transparent 1px;
 }
 .sidebar ul li span {
   color: black;
@@ -61,5 +66,5 @@
   color: black;
   margin: 20px;
   padding: 10px 30px;
-  background-color: darkorchid;
+  background-color: #a491d2;
 }/*# sourceMappingURL=style.css.map */

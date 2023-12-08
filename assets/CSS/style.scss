@@ -24,7 +24,7 @@
   background-color: rgb(27, 199, 199);
   height: 100px;
   width: auto;
-  position:fixed;
+  position: absolute;
   ul {
     display: flex;
     flex-direction: column;
@@ -38,6 +38,11 @@
       a {
         color: black;
         text-decoration: none;
+        img {
+          height: 50px;
+          border-radius: 150px;
+          border: transparent 1px;
+        }
       }
       span {
         color: black;
@@ -59,7 +64,7 @@
       color: black;
       margin: 20px;
       padding: 10px 30px;
-      background-color: darkorchid;
+      background-color: #a491d2;
     }
   }
 }
