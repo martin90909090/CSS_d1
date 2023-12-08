@@ -5,7 +5,7 @@
 }
 
 .sidebar {
-  background-color: aqua;
+  background-color: rgb(27, 199, 199);
   height: 100px;
   width: auto;
   ul {
@@ -13,13 +13,17 @@
     flex-direction: column;
     list-style: square;
     li {
-      background-color: black;
+      background-color: gray;
       padding: 10px;
       flex-direction: row;
       justify-content: center;
       margin-bottom: 10px;
       a {
         color: black;
+        text-decoration: none;
+      }
+      span {
+        color: white;
         text-decoration: none;
       }
     }
