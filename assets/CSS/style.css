@@ -40,7 +40,7 @@ body {
   text-decoration: none;
 }
 .sidebar ul li a img {
-  height: 3vh;
+  height: 1vh;
   border-radius: 150px;
   border: transparent 1px;
 }
@@ -72,8 +72,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 20%;
   justify-content: center;
+  margin: 20%;
   flex-wrap: no-wrap;
   height: 100vh;
   width: 70%;
