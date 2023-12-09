@@ -13,32 +13,11 @@ body {
   flex-flow: column;
 }
 
-.princ {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 20%;
-  justify-content: center;
-  flex-wrap: no-wrap;
-  height: 100vh;
-  flex: 1;
-}
-.princ img {
-  height: 500px;
-  align-items: center;
-}
-.princ h1, .princ p {
-  margin: 0;
-  justify-content: center;
-}
-
 .sidebar {
   background-color: white;
   height: 100vh;
   border: black 5px;
-  width: auto;
+  width: 30vh;
   position: fixed;
   justify-content: space-between;
 }
@@ -61,7 +40,7 @@ body {
   text-decoration: none;
 }
 .sidebar ul li a img {
-  height: 1vh;
+  height: 3vh;
   border-radius: 150px;
   border: transparent 1px;
 }
@@ -85,4 +64,26 @@ body {
   margin: 20px;
   padding: 10px 30px;
   background-color: #a491d2;
+}
+
+.princ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20%;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  height: 100vh;
+  width: 70%;
+  flex: 1;
+}
+.princ img {
+  height: 500px;
+  align-items: center;
+}
+.princ h1, .princ p {
+  margin: 0;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
