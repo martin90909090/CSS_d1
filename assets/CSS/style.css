@@ -80,7 +80,7 @@ body {
   flex: 1;
 }
 .princ img {
-  height: 500px;
+  height: 25vh;
   align-items: center;
 }
 .princ h1, .princ p {
