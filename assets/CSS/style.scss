@@ -24,7 +24,6 @@ body {
   flex-wrap: no-wrap;
   height: 100vh;
   flex: 1;
-
   img {
     height: 500px;
     align-items: center;
@@ -36,8 +35,9 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(27, 199, 199);
+  background-color: white;
   height: 100vh;
+  border: black 5px;
   width: auto;
   position: fixed;
   justify-content: space-between;
@@ -52,6 +52,7 @@ body {
       margin-bottom: 0px;
       flex-direction: row;
       justify-content: center;
+      border: black 1px;
       a {
         color: black;
         text-decoration: none;

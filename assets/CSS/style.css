@@ -35,8 +35,9 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(27, 199, 199);
+  background-color: white;
   height: 100vh;
+  border: black 5px;
   width: auto;
   position: fixed;
   justify-content: space-between;
@@ -53,6 +54,7 @@ body {
   margin-bottom: 0px;
   flex-direction: row;
   justify-content: center;
+  border: black 1px;
 }
 .sidebar ul li a {
   color: black;
