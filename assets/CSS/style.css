@@ -1,6 +1,132 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e8ebe4;
+}
+
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .sidebar-header {
+  border: #828485 solid 2px;
+  background-color: #bec1bb;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sidebar .sidebar-header .user-data {
+  font-family: "Roboto Thin", serif;
+  display: flex;
+  padding: 20px;
+}
+.sidebar .sidebar-header .user-data img {
+  height: 30px;
+  border: #828485 solid 2px;
+  border-radius: 60px;
+}
+.sidebar .sidebar-header .user-data p {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #1b1f21;
+}
+.sidebar .sidebar-header .user-data p span {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #444749;
+}
+.sidebar .sidebar-header .user-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sidebar .sidebar-header .user-buttons i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+.sidebar .new_chat {
+  border: #828485 solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.sidebar .new_chat button {
+  margin: 30px;
+  width: 170px;
+  height: 50px;
+  font-family: "Roboto Thin", serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #a491d2;
+  border: transparent;
+}
+.sidebar .contactos {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .contactos .contacto {
+  border: #828485 solid 2px;
+  background-color: #bec1bb;
+  height: 10.5vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sidebar .contactos .contacto img {
+  height: 70px;
+  width: 70px;
+  border: #828485 solid 2px;
+  border-radius: 150px;
+}
+.sidebar .contactos .contacto p {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #1b1f21;
+}
+.sidebar .contactos .contacto p span {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #444749;
+}
+
+.princ {
+  display: flex;
+  flex-direction: column;
+  width: 67vw;
+  align-items: center;
+}
+.princ img {
+  display: flex;
+  height: 300px;
+}
+.princ h1, .princ p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

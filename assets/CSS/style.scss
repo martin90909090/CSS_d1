@@ -1,0 +1,143 @@
+//colors
+$color_1: #fff;
+$color_2: #e8ebe4;
+$color_3: #bec1bb;
+$color_4: #a491d2;
+$color_5: #cdc3e6;
+$color_6: #d4dcff;
+$color_7: #1b1f21;
+$color_8: #444749;
+$color_9: #828485;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $color_2;
+}
+
+.sidebar{
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .sidebar-header{
+    border: $color_9 solid 2px;
+    background-color: $color_3;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .user-data{
+      font-family: "Roboto Thin", serif;
+      display: flex;
+      padding: 20px;
+      img{
+        height: 30px;
+        border: $color_9 solid 2px;
+        border-radius: 60px;
+      }
+      p{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        font-size: 16px;
+        color: $color_7;
+        span{
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          color: $color_8;
+        }
+      }
+    }
+    .user-buttons{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      i{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+      }
+     } 
+  }
+  .new_chat{
+    border: $color_9 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $color_1;
+    button{
+      margin: 30px;
+      width: 170px;
+      height: 50px;
+      font-family: "Roboto Thin", serif;
+      font-size: 16px;
+      color: $color_1;
+      background-color: $color_4;
+      border: transparent;
+    }
+  }
+  .contactos{
+    display: flex;
+    flex-direction: column;
+    .contacto{
+      border: $color_9 solid 2px;
+      background-color: $color_3;
+      height: 10.5vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      img{
+        height: 70px;
+        width: 70px;
+        border: $color_9 solid 2px;
+        border-radius: 150px;
+      }
+      p{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        font-size: 16px;
+        color: $color_7;
+        span{
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          color: $color_8;
+        }
+      }
+    }
+  }
+}
+
+.princ{
+  display: flex;
+  flex-direction: column;
+  width: 67vw;
+  align-items: center;
+  img{
+    display: flex;
+    height: 300px;
+  }
+  h1, p{
+    text-align: center;
+  }
+}
